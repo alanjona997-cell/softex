@@ -1,0 +1,10 @@
+let anoNascimento = 1995
+
+let anoAtual = new Date().getFullYear();
+
+let idade = anoAtual - anoNascimento
+
+console.log("idade:",idade);
+
+
+
