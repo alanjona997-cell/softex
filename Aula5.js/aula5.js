@@ -18,5 +18,13 @@ if(anoNascimento <= 2007){
     console.log("voce nao pode entrar, voce pode ser preso")
 }
 
+let name = readline.question ("Posso ajudar em algo mais?")
+console.log(`Posso ajudar em algo mais? ${name}`)
 
+if(name == "sim"){
+    console.log("o que deseja?")
+
+}else{
+    console.log("tudo bem entao, estou a disposicao")
+}
 
