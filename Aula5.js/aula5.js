@@ -19,7 +19,7 @@ if(anoNascimento <= 2007){
 }
 
 let name = readline.question ("Posso ajudar em algo mais?")
-console.log(`Posso ajudar em algo mais? ${name}`)
+console.log
 
 if(name == "sim"){
     console.log("o que deseja?")
